@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {/* general settings */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color:hsl(240, 75%, 98%);
+}
+
+.btnhover:hover {
+    opacity: 80%;
+}
+
+h1, h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}/* general settings*/
+
+/*colors*/
+.dark {
+    color:hsl(243, 87%, 12%);
+}
+/*colors*/
+
+header {/*header settings*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.headerlogo {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color:hsl(243, 87%, 12%);
+}/*header settings*/
+
+.main1 {/*first image, text, email settings*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+}/*first image, text, email settings*/
+
+.email {/*email input and submit button settings*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#email {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#submit {
+    border: none;
+    border-radius: 5px;
+    padding: .8rem;
+    background-color:hsl(224, 93%, 58%);
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*email input and submit button settings*/
+
+.main2 {/*second illustration and 3 paragraphs below*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.main2 p {
+    text-align: start;
+    color:hsl(238, 22%, 44%);
+}
+
+.arrow {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: underline;
+}
+
+.arrow a {
+    color:hsl(170, 45%, 43%);
+}
+
+.arrow:hover {
+    opacity: 70%;
+}
+
+.ill2 {
+    margin: 5rem 0rem 2rem 02rem;
+}/*second illustration and 3 paragraphs below*/
+
+.avatar {/*testimonial and avatar settings*/
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.person {
+    border-radius: 50%;
+    width: 12.5%;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 2.5rem 1rem 1rem 1rem;
+    background-image: url("images/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-size: 7.5%;
+    background-position-x: 5.5%;
+    background-position-y: 5.5%;
+    background-color: #fff;
+    color:hsl(243, 87%, 12%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*testimonial and avatar settings*/
+
+.email2 {/*2nd email input and submit button settings*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#email2 {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#submit2 {
+    border: none;
+    border-radius: 5px;
+    padding: .8rem;
+    background-color:hsl(224, 93%, 58%);
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*2nd email input and submit button settings*/
+
+.main3 {/*early access section*/
+    padding: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    color: #fff;
+    background-color:hsl(238, 22%, 44%);
+}/*early access section*/
+
+footer {/* footer settings*/
+    background-color:hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 2rem;
+}
+
+.footerlogo {
+    width: 166px;
+}
+
+.mail {
+    width: 20px;
+}
+
+.phone {
+    display: flex;
+    gap: 1rem;
+}
+
+.emailfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.linksrow, .links1, .links2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.linksrow a:hover {
+    color:hsl(224, 93%, 58%);
+}
+
+footer a {
+    color: #fff;
+}
+
+.social {
+    fill:white;
+}
+
+.social:hover {
+    fill:hsl(224, 93%, 58%);
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}/* footer settings*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1024px) {
+    .headerlogo {/*header*/
+        width: 12.5%;
+    }
+    header {
+        padding: 4rem;
+        align-items: center;
+    }/*header*/
+
+    .ill1 {/*1st main*/
+        width: 50%;
+    }
+
+    .desktop1 {
+        width: 37%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .main1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    #email {
+        width: 65%;
+    }
+
+    #submit {
+        width: 28%;
+    }/*1st main*/
+
+    .ill2 {/*2nd main*/
+        width: 50%;
+    }
+
+    .desktop2 {
+        width: 39%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .desktop2 h3 {
+        width: 114%;
+        font-size: 36px;
+        margin-bottom: 1.5rem;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .arrow {
+        justify-content: flex-start;
+        width: 32%;
+    }
+
+    .testimonial {
+        width: 66%;
+    }/*2nd main*/
+
+    .desktop3 {/*3rd main*/
+        width: 36%;
+        text-align: start;
+    }
+
+    .email2 {
+        width: 100%;
+    }
+    
+    #email2 {
+        width: 150%;
+    }
+
+    .main3 {
+        padding: 3rem 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }/*3rd main*/
+
+    .linksrow {
+        flex-direction: row;
+        gap: 10rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5rem 0;
+        gap: 15rem;
+    }
+
+}
