@@ -40,13 +40,19 @@
             color: #fff;
             font-weight: 700;
             box-shadow: rgba(71, 71, 71, 0.5) 0px 8px 24px;
+
+            &:hover {
+                background: hsl(224, 100%, 69%);
+                transition: 0.2s;
+            }
         }
     }
 }
 
 @media screen and (min-width: 1024px) {
     .call_to_action {
-        padding: 5rem 9rem;
+        margin-top: 3rem;
+        padding: 6rem 9rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -60,7 +66,7 @@
             width: 35%;
 
             .submit {
-                width: 50%;
+                width: 60%;
             }
         }
     }

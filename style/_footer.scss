@@ -20,6 +20,11 @@ footer {
                 cursor: pointer;
                 text-decoration: none;
                 color: #fff;
+
+                &:hover {
+                    color: $desaturated-blue;
+                    transition: 0.2s;
+                }
             }
         }
 
@@ -38,6 +43,11 @@ footer {
 
             svg {
                 fill: #fff;
+
+                &:hover {
+                    fill: $desaturated-blue;
+                    transition: 0.2s;
+                }
             }
         }
     }

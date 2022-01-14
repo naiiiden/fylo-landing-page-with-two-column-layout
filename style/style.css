@@ -126,6 +126,12 @@ header nav ul a {
           box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
+.main_image_wrapper main form .submit:hover {
+  opacity: 80%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 @media screen and (min-width: 1024px) {
   .main_image_wrapper {
     padding: 3rem 9rem;
@@ -381,9 +387,16 @@ header nav ul a {
           box-shadow: rgba(71, 71, 71, 0.5) 0px 8px 24px;
 }
 
+.call_to_action form .submit:hover {
+  background: #618bff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 @media screen and (min-width: 1024px) {
   .call_to_action {
-    padding: 5rem 9rem;
+    margin-top: 3rem;
+    padding: 6rem 9rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -403,7 +416,7 @@ header nav ul a {
     width: 35%;
   }
   .call_to_action form .submit {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -461,6 +474,12 @@ footer nav ul a {
   color: #fff;
 }
 
+footer nav ul a:hover {
+  color: #585989;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 footer nav .contacts li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -484,6 +503,12 @@ footer nav .socials {
 
 footer nav .socials svg {
   fill: #fff;
+}
+
+footer nav .socials svg:hover {
+  fill: #585989;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 @media screen and (min-width: 1024px) {
