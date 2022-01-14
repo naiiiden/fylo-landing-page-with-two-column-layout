@@ -1,0 +1,40 @@
+header {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 5rem;
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                color: $very-dark-blue;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 3rem 9rem;
+
+        img {
+            width: 7.5rem;
+        }
+
+        nav {
+            ul {
+                gap: 3rem;
+            }
+        }
+    }
+}
