@@ -54,32 +54,32 @@ header nav ul a {
   flex-direction: column;
   gap: 2rem;
 }
-.main_image_wrapper main {
+.main_image_wrapper .main {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.main_image_wrapper main h1 {
+.main_image_wrapper .main h1 {
   font-family: Raleway, sans-serif;
   color: hsl(243deg, 87%, 12%);
 }
-.main_image_wrapper main p {
+.main_image_wrapper .main p {
   color: hsl(243deg, 87%, 12%);
   font-weight: 400;
 }
-.main_image_wrapper main form {
+.main_image_wrapper .main form {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
-.main_image_wrapper main form .email {
+.main_image_wrapper .main form .email {
   padding: 0.75rem;
   border: 1px solid hsl(243deg, 87%, 12%);
   border-radius: 0.25rem;
   font-family: inherit;
 }
-.main_image_wrapper main form .submit {
+.main_image_wrapper .main form .submit {
   cursor: pointer;
   padding: 0.75rem;
   font-family: inherit;
@@ -90,7 +90,7 @@ header nav ul a {
   font-weight: 700;
   box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
-.main_image_wrapper main form .submit:hover {
+.main_image_wrapper .main form .submit:hover {
   opacity: 80%;
   transition: 0.2s;
 }
@@ -105,12 +105,12 @@ header nav ul a {
   .main_image_wrapper img {
     width: 50%;
   }
-  .main_image_wrapper main {
+  .main_image_wrapper .main {
     text-align: start;
     width: 40%;
     gap: 1.5rem;
   }
-  .main_image_wrapper main form {
+  .main_image_wrapper .main form {
     flex-direction: row;
   }
 }
@@ -118,13 +118,13 @@ header nav ul a {
   .main_image_wrapper img {
     width: 50%;
   }
-  .main_image_wrapper main {
+  .main_image_wrapper .main {
     width: 50%;
   }
-  .main_image_wrapper main h1 {
+  .main_image_wrapper .main h1 {
     font-size: 2.5rem;
   }
-  .main_image_wrapper main form {
+  .main_image_wrapper .main form {
     flex-direction: row;
   }
 }
